@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.nav-container {
+    margin-bottom: 40px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.nav1 {
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+
+.nav1 ul {
+    list-style-type: None;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.nav1 li {
+    display: inline;
+}
+
+.nav1 a {
+    text-decoration: None;
+    color:black;
+    background-color:bisque;
+    padding: 5px 10px;
+    position: relative;
+}
+
+.nav1 a::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: #254bf6;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.nav1 a:hover::after {
+    transform: scaleX(1)
+}
+
+.nav1 .login-btn {
+    background-color: blue;
+    color: white;
+    border: None;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav2 {
+    background-color: #03643c;
+    width: 200px;
+    padding: 20px;
+
+}
+
+.nav2 ul {
+    list-style-type: None;
+    margin: 0;
+    padding: 0;
+}
+
+.nav2 li {
+    margin-bottom : 12px;
+}
+
+.nav2 a {
+    text-decoration: None;
+    color: white;
+    display: block;
+    padding: 10px;
+    width: 100px;    
+}
+
+.nav2 a:hover {
+    background-color: #137e03;  
+}
+
+.nav2 .login-btn {
+    background-color: #048a2f;
+    color: white;
+    border: None;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.nav2 .login-btn:hover {
+    background-color:darkgreen;
+}
+
+.nav3 {
+    background-color: #45a2bb;
+    padding: 10px;
+}
+
+.nav3 ul {
+    list-style-type: None;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}   
+
+.nav3 a {
+    text-decoration: None;
+    color: #fff;
+    padding: 10px;
+    display: block;
+}
+
+.nav3 .dropdown-content {
+    display: None;
+}
+
+.nav3 .dropdown:hover .dropdown-content {
+    display: block;
+    position: absolute;
+    background-color:#1a1a1a;
+    color: black;
+    min-width: 150px;
+}
+
