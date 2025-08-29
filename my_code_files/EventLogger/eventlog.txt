@@ -1,0 +1,10 @@
+function toISOString() { [native code] } - Application Started 
+function toISOString() { [native code] } - Application Event Occurred 
+function toISOString() { [native code] } - Current memory usage:  0.11 
+function toISOString() { [native code] } - Current memory usage:  0.09 
+function toISOString() { [native code] } - Current memory usage:  0.12 
+function toISOString() { [native code] } - Current memory usage:  0.10 
+function toISOString() { [native code] } - Current memory usage:  0.16 
+function toISOString() { [native code] } - Current memory usage:  0.14 
+function toISOString() { [native code] } - Current memory usage:  0.10 
+function toISOString() { [native code] } - Current memory usage:  0.20 
